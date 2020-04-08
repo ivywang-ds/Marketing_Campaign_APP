@@ -100,7 +100,6 @@ def main():
 
     # add a button
     st.sidebar.subheader("Insights")
-    st.sidebar.button('Click me')
     text = """
     ### Conclusion: ##
     - **Campaign A** brings the most Visits and least Revenue, the profit from each visit is almost zero.
@@ -108,7 +107,8 @@ def main():
     - **Camgaign C** brings the least Visits but highest Revenue, even the cost is high as well, the profit margin is still good.
     ---------------------
     """
-    st.markdown(text)
+    if st.sidebar.button("Click me"):
+        st.markdown(text)
 
     st.sidebar.subheader("About Author")
     text = """\
