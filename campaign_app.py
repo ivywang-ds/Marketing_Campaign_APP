@@ -30,10 +30,12 @@ def main():
     df = load_data()
 
     st.title("Marketing Campaign Report")
-    text ="""\
-    ![]('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/header.png')
-    """
-    st.markdown(text)
+    #text ="""\
+    #![]('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/header.png')
+    #"""
+   # st.markdown(text)
+    img= Image.open("https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/header.png")
+    st.image(img,width =800)
 
     # add sth into sidebar
     text = """
@@ -113,11 +115,12 @@ def main():
         st.markdown(text)
 
     st.sidebar.subheader("About Author")
-    text = """\
-     Data Scientist  [**Ivy Wang**](https://www.linkedin.com/in/ivy-w-81871716b/)<br>
-     ![]('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/profile.png')
-     """
-    st.sidebar.markdown(text)
+    #text = """\
+    # Data Scientist  [**Ivy Wang**](https://www.linkedin.com/in/ivy-w-81871716b/)
+    # """
+    #st.sidebar.markdown(text)
+    img= Image.open("https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/profile.png")
+    st.image(img,width =300)
 
 
 
