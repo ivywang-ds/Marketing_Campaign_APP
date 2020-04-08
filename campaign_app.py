@@ -6,7 +6,7 @@ from PIL import Image
 
 @st.cache(allow_output_mutation=True)
 def load_data():
-        df = pd.read_csv('/Users/ivyw/Desktop/stp/campaign_app/marketing_campaigns.csv',sep =';')
+        df = pd.read_csv('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/marketing_campaigns.csv',sep =';')
         df['Profit'] = df['Revenue']- df['Cost']
         return  df
 
@@ -30,7 +30,7 @@ def main():
     df = load_data()
 
     st.title("Marketing Campaign Report")
-    img = Image.open('/Users/ivyw/Desktop/stp/campaign_app/image/marketing.png')
+    img = Image.open('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/image/marketing.png')
     st.image(img,width =800)
 
     # add sth into sidebar
@@ -116,7 +116,7 @@ def main():
      """
     st.sidebar.markdown(text)
 
-    img = Image.open('/Users/ivyw/Desktop/stp/campaign_app/image/comic.png')
+    img = Image.open('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/image/comic.png')
     st.sidebar.image(img,width =300)
 
 
