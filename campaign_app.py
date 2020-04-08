@@ -110,13 +110,12 @@ def main():
 
     st.sidebar.subheader("About Author")
     text = """\
-    ---------------------
-    **Ivy Wang**
+    - **Name: Ivy Wang**
+    - **Feature: Always make cool stuff**
     
     ### [**Linkedin**](https://www.linkedin.com/in/ivy-w-81871716b/)###
-    ###[**twitter**](twitter.com/Ivy_DataCracker) ###
+    ### [**twitter**](twitter.com/Ivy_DataCracker)###
     **Thanks for your viewing!**
-    ---------------------
       """
     st.sidebar.markdown(text)
 
