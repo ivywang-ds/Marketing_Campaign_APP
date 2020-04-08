@@ -6,7 +6,7 @@ from PIL import Image
 
 @st.cache(allow_output_mutation=True)
 def load_data():
-        df = pd.read_csv('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/marketing_campaigns.csv',sep =';')
+        df = pd.read_csv('https://raw.githubusercontent.com/Ivyw1219/Marketing_Campaign_APP/master/marketing_campaigns.csv',sep =';')
         df['Profit'] = df['Revenue']- df['Cost']
         return  df
 
