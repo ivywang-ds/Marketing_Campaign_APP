@@ -99,7 +99,7 @@ def main():
     # add a button
     st.sidebar.subheader("Insights")
     text = """
-    ### Conclusion: ##
+    ### Conclusion: ###
     - **Campaign A** brings the most Visits and least Revenue, the profit from each visit is almost zero.
     - **Campagin B** brings 5188 visits and 7039 revevue,but the profit performance is the worst (negative) due to the expensive cost.
     - **Camgaign C** brings the least Visits but highest Revenue, even the cost is high as well, the profit margin is still good.
@@ -110,10 +110,13 @@ def main():
 
     st.sidebar.subheader("About Author")
     text = """\
-    **Ivy Wang**<br>
-    [**Linkedin**](https://www.linkedin.com/in/ivy-w-81871716b/)<br>
-    [**twitter**](twitter.com/Ivy_DataCracker)<br>
+    ---------------------
+    **Ivy Wang**
+    
+    ### [**Linkedin**](https://www.linkedin.com/in/ivy-w-81871716b/)###
+    ###[**twitter**](twitter.com/Ivy_DataCracker) ###
     **Thanks for your viewing!**
+    ---------------------
       """
     st.sidebar.markdown(text)
 
