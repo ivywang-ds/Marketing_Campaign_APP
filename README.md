@@ -1,5 +1,5 @@
 # Marketing_Campaign_APP
-** Run in your terminal**
+**Run in your terminal**<br>
 `streamlit run https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/campaign_app.py`
 
 ## 1. Homepage Preview
