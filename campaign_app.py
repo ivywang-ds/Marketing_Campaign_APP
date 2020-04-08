@@ -34,7 +34,7 @@ def main():
     #![]('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/header.png')
     #"""
     #st.markdown(text)
-    img= Image.open('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/header.ipg')
+    img= Image.open('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/header.jpg')
     st.image(img)
 
     # add sth into sidebar
