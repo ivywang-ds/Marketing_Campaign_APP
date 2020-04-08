@@ -30,7 +30,7 @@ def main():
     df = load_data()
 
     st.title("Marketing Campaign Report")
-    img = Image.open('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/image/marketing.png')
+    img = Image.open('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/header.png')
     st.image(img,width =800)
 
     # add sth into sidebar
@@ -116,7 +116,7 @@ def main():
      """
     st.sidebar.markdown(text)
 
-    img = Image.open('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/image/comic.png')
+    img = Image.open('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/profile.png')
     st.sidebar.image(img,width =300)
 
 
