@@ -31,7 +31,7 @@ def main():
 
     st.title("Marketing Campaign Report")
     text ="""\
-    ![]('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/header.png | width = 800 )
+    ![]('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/header.png'){ width=800 }
     """
     st.markdown(text)
 
@@ -115,7 +115,7 @@ def main():
     st.sidebar.subheader("About Author")
     text = """\
      Data Scientist  [**Ivy Wang**](https://www.linkedin.com/in/ivy-w-81871716b/)
-     ![]('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/profile.png'| width = 300)
+     ![]('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/profile.png'){ width=300 }
      """
     st.sidebar.markdown(text)
 
