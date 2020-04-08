@@ -114,7 +114,7 @@ def main():
 
     st.sidebar.subheader("About Author")
     text = """\
-     Data Scientist  [**Ivy Wang**](https://www.linkedin.com/in/ivy-w-81871716b/)
+     Data Scientist  [**Ivy Wang**](https://www.linkedin.com/in/ivy-w-81871716b/)<br>
      ![]('https://github.com/Ivyw1219/Marketing_Campaign_APP/blob/master/profile.png')
      """
     st.sidebar.markdown(text)
